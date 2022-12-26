@@ -1,6 +1,9 @@
 # Hadoop Exporter for Prometheus
 Forked from https://github.com/cauwulixuan/hadoop_exporter
 Exports hadoop metrics via HTTP for Prometheus consumption.
+I've just attempt to make this work more correctly and easier to use.
+
+You can take a look to some repositories coded by me: [hadoop_exporter](https://github.com/vqcuong/hadoop_exporter) implementing python or [hadoop_metric_exporter](https://github.com/vqcuong/hadoop_metric_exporter) implementing golang.
 
 How to run
 ```
