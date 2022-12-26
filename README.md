@@ -88,7 +88,7 @@ Run container:
 ```
 docker run -d \
   --name hadoop-exporter \
-  vqcuong96/hadoop_exporter \
+  <your_own_image_tag> \
   -nn http://localhost:9870/jmx \
   -rm http://localhost:8088/jmx
 ```
@@ -98,7 +98,7 @@ You can also mount config to docker container:
 docker run -d \
   --name hadoop_exporter \
   --mount type=bind,source=/path/to/config.yaml,target=/tmp/config.yaml \
-  vqcuong96/hadoop_exporter \
+  <your_own_image_tag> \
   -cfg /tmp/config.yaml
 ```
 
